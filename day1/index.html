@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css"
+    rel="stylesheet" type="text/css">
+    <meta name ="description" content="Jin's document">
+    <title>title practice</title>
+    <style>
+        .top{
+            background: red;
+            height:200px;
+        }
+        .mid{
+            background: blue;
+            height:100px
+        }
+        .bot{
+            background: green;
+            height:100px
+        }
+        .like{background:red;}
+        .sub{background:yellow;}
+        .comment{background:blue}
+        ul,ol{
+            list-style-type: lower-alpha;
+        }
+    </style>
+
+
+
+</head>
+<body style="background-color: blanchedalmond;">
+    <!--텍스트 관련 태그들-->
+    <div class="top">
+        <h1 style="text-align: center;">h1 : 제목입니다</h1>
+        <h2>h2 : 부제목입니다.</h2>
+        <h3>h3 : ㅎㅎㅎ</h3>
+        <h4>h4 : ㅎㅎㅎㅎ</h4>
+    </div>
+    <div class="mid">
+        <h5>h5:ㅎㅎㅎ</h5>
+        <h6>h6까지 쓸수 있습니다.</h6>
+    </div>
+    
+    <div class="bot">
+        <b>b : 굵은 글씨</b>
+        <i>i : 기울인 글씨</i>
+        <p>p : 문단</p>
+    </div>
+    
+    <!--미디어 관련 태그들-->
+    <img src="image\운동 대리만족.jpg">
+    <video src="video/jaurim-Itzi.mp4"controls></video><!--controls : 재생버튼만들기-->
+    <a href="https://google.com">구글</a>
+    <a href="https://facebook.com"target_blank>페이스북</a>
+
+    <!--테이블 태그-->
+    <table border='1'>
+        <thread>
+            <th>이름</th>
+            <th>나이</th>
+        </thread>
+        <tbody>
+            <tr>
+                <td>kim</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>jin</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--구역을 나누는 태그-->
+    <div class="top">상단</div>
+    <div class="mid">중단</div>
+    <div class="bot">하단</div>
+
+    <span class="like">좋아요</span>
+    <span class="sub">구독</span>
+    <span class="comment">댓글</span>
+
+    <!--인풋 관련 태그-->
+    <input type="text">
+    <input type="checkbox">
+    <input type="radio">
+    <input type="color">
+    
+    <select name="name">
+        <option value="kim">Kim</option>
+        <option value="jane">Jane</option>
+    </select>
+
+    <!--목록 태그-->
+    <ol>
+        <li>쌀 씻기</li>
+        <li>밥 솥에 넣기</li>
+        <li>취사 누르기</li>
+    </ol>
+
+    <ul>
+        <li>kim</li>
+        <li>jane</li>
+        <li>hihihiji</li>
+    </ul>
+
+    <!--로그인 폼 만들기-->
+    <form>
+        <input type="email" placeholder="이메일">
+        <input type="password" placeholder="비밀번호">
+        <button type="submit">로그인</button>
+    </form>
+
+</body>
+</html>

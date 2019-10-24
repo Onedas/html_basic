@@ -1,0 +1,36 @@
+
+/* <p> 인경우 모두 적용*/
+p {
+    text-align : center;
+    color : red;
+}
+
+/*id = "para1" 인경우 적용*/
+#para1 {
+    text-align : center
+    color : red;
+}
+
+/* class = "center" 인경우 적용 */
+.center {
+    text-align : center;
+    color : red;
+}
+
+/* <p>의 class="center"인 경우만 적용 */
+p.center {
+    text-align : center;
+    color : red;
+}
+
+/* universal selector (*) */
+* {
+    text-align : center;
+    color : blue;
+}
+
+/* grouping */
+h1, h2, p {
+    text-align : center;
+    color : red;
+}
